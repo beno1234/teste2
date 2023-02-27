@@ -2,12 +2,8 @@ import React from "react";
 
 const Contact = () => {
   const contact_info = [
-    { logo: "mail", text: "codeaprogram@gmail.com" },
-    { logo: "logo-whatsapp", text: "123 456 780" },
-    {
-      logo: "location",
-      text: "demo location",
-    },
+    { logo: "mail", text: "victoria.mcirino@gmail.com" },
+    { logo: "logo-whatsapp", text: "Chama no Whats!" },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">
@@ -22,10 +18,10 @@ const Contact = () => {
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
+            <input type="text" placeholder="Seu Nome" />
+            <input type="Email" placeholder="Email" />
+            <textarea placeholder="Mensagem" rows={10}></textarea>
+            <button className="btn-primary w-fit">Enviar Mensagem</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

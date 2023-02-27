@@ -5,9 +5,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const menuLinks = [
     { name: "HOME", link: "#home" },
-    { name: "ABOUT", link: "#about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROJECTS", link: "#projects" },
+    { name: "SOBRE", link: "#about" },
+    { name: "PROJETOS", link: "#projects" },
     { name: "CONTACT", link: "#contact" },
   ];
   useEffect(() => {
@@ -25,7 +24,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold">
-            A<span className="text-cyan-600">le</span>x
+            Vic<span className="text-cyan-600">Tór</span>ia
           </h4>
         </div>
         <div
