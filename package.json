@@ -1,6 +1,7 @@
 {
   "name": "vitereact",
   "version": "0.0.0",
+  "homepage": "vic/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
